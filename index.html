@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Alex Tross Test</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/shop-homepage.css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.bootpag.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="container header"><h1>Alex Tross Test Page</h1></div>
+
+			<div class="row">
+
+				<div class="col-md-3">
+					<p class="lead">Business Info</p>
+					<address id="business-info"></address>
+					<hr>
+					<p class="lead">Show Reviews</p>
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="control-label" for="inputType">No of Reviews</label>
+							<select class="form-control" id="noOfReviews">
+								<option value="6">6</option>
+								<option value="12">12</option>
+								<option value="24">24</option>
+								<option value="48">48</option>
+								<option value="96">96</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="inputType">Source:</label><br>
+							<label class="checkbox-inline">
+								<input type="checkbox" id="internal" value="1" checked> Internal
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" id="yelp" value="1" checked> Yelp
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" id="google" value="1" checked> Google
+							</label>
+						</div>
+						<div class="ratings threshold-link">
+							<a href="#" rel="5">
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span></span>
+							</a>
+							<a href="#" rel="4">
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span>& Up</span>
+							</a>
+							<a href="#" rel="3">
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span>& Up</span>
+							</a>
+							<a href="#" rel="2">
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span>& Up</span>
+							</a>
+							<a href="#" rel="1">
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span>& Up</span>
+							</a>
+						</div>
+					</form>
+					<hr>
+					<p>Total Reviews: <span id="total-reviews"></span></p>
+				</div>
+
+
+				<div class="col-md-9">
+
+					<div class="row" id="reviews"></div>
+					
+					<div id="page-selection"></div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+		
+		<!-- /.container -->
+
+		<div class="container">
+
+			<hr>
+
+			<!-- Footer -->
+			<footer>
+				<div class="row">
+					<div class="col-lg-12">
+						<p>Created by Alex Tross</p>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+		<!-- /.container -->
+
+	</body>
+</html>

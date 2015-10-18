@@ -9,3 +9,10 @@
 * I do not use "review_source". Because it is not match "review_from" and it can mislead the user.
 * Regarding design - I'm a super graphic designer, I'm a developer. So do not be so strict please :)
 * I did not write any tests because it was not required.
+
+## Comments
+
+- /index.html - all the HTML code;
+- /request.php - simple PHP proxy script;
+- /js/main.js - main JS file. Because of its simplicity, I made it one file and didn't use modules, etc;
+- /css/style.css - some CSS.

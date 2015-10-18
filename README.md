@@ -9,6 +9,11 @@
 * I do not use "review_source". Because it is not match "review_from" and it can mislead the user.
 * Regarding design - I'm a super graphic designer, I'm a developer. So do not be so strict please :)
 * I did not write any tests because it was not required.
+* You have a bug in your APIs. internal/yelp/google parameters do not work.
+So
+http://test.localfeedbackloop.com/api?apiKey=61067f81f8cf7e4a1f673cd230216112&noOfReviews=10&internal=1&yelp=1&google=1&offset=0&threshold=1
+is the same as
+http://test.localfeedbackloop.com/api?apiKey=61067f81f8cf7e4a1f673cd230216112&noOfReviews=10&internal=1&yelp=1&google=0&offset=50&threshold=1
 
 ## Comments
 
